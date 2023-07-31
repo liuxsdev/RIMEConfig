@@ -1,0 +1,35 @@
+patch:
+  'speller/algebra':
+    - erase/^xx$/ # 第一行保留
+    # == 小鹤双拼模糊音设置 https://gist.github.com/lotem/2320943?permalink_comment_id=3027954#gistcomment-3027954
+    - derive/([ei])n$/$1ng/ # en => eng, in => ing
+    - derive/([ei])ng$/$1n/ # eng => en, ing => in
+    # == 小鹤模糊音配置
+    # 添加原始配置中xform代码段
+    - xform/^([aoe])(ng)?$/$1$1$2/
+    - xform/iu$/Q/
+    - xform/(.)ei$/$1W/
+    - xform/uan$/R/
+    - xform/[uv]e$/T/
+    - xform/un$/Y/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/uo$/O/
+    - xform/ie$/P/
+    - xform/i?ong$/S/
+    - xform/ing$|uai$/K/
+    - xform/(.)ai$/$1D/
+    - xform/(.)en$/$1F/
+    - xform/(.)eng$/$1G/
+    - xform/[iu]ang$/L/
+    - xform/(.)ang$/$1H/
+    - xform/ian$/M/
+    - xform/(.)an$/$1J/
+    - xform/(.)ou$/$1Z/
+    - xform/[iu]a$/X/
+    - xform/iao$/N/
+    - xform/(.)ao$/$1C/
+    - xform/ui$/V/
+    - xform/in$/B/
+    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
