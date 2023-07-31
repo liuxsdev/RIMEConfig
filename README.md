@@ -1,0 +1,2 @@
+# RimeConfig
+My RIME Config
