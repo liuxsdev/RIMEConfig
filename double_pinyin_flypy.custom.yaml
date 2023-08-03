@@ -33,3 +33,15 @@ patch:
     - xform/ui$/V/
     - xform/in$/B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+  # 自定义短语
+  engine/translators/+:
+    - table_translator@custom_phrase
+  engine/filters/+:
+    - uniquifier
+  custom_phrase:
+    dictionary: ''
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1

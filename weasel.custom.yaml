@@ -5,9 +5,10 @@ customization:
   modified_time: 'Fri Jul 28 14:03:55 2023'
   rime_version: 1.8.5
 patch:
-  'style/color_scheme': dark_temple
-  'style/font_face': '梦源黑体 L CN'
-  'style/font_point': 14
-  'style/horizontal': true # 候选横排
-  'style/inline_preedit': true # 内嵌编码
+  style:
+    color_scheme: google
+    font_face: '梦源黑体 L CN'
+    font_point: 14
+    horizontal: true # 候选横排
+    inline_preedit: true # 内嵌编码
 

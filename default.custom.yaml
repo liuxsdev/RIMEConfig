@@ -8,5 +8,18 @@ patch:
   schema_list:
     - { schema: luna_pinyin_fluency }
     - { schema: double_pinyin_flypy }
-  'switcher/hotkeys':
-    - 'Control+grave'
+  # 方案选单快捷鍵
+  switcher:
+    hotkeys:
+      - 'Control+grave'
+  # 使用 Control 鍵切換中西文 https://gist.github.com/lotem/2981316?permalink_comment_id=1908564#gistcomment-1908564
+  ascii_composer:
+    good_old_caps_lock: false
+    switch_key:
+      Caps_Lock: commit_code
+      Control_L: commit_code
+      Control_R: commit_code
+      Shift_L: noop
+      Shift_R: noop
+  menu:
+    page_size: 8 # 候选词个数
