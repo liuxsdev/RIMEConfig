@@ -45,3 +45,15 @@ patch:
     enable_completion: false
     enable_sentence: false
     initial_quality: 1
+  # 切换
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ['中文', '西文']
+    - name: full_shape
+      states: ['半角', '全角']
+    - name: simplification
+      reset: 1
+      states: ['繁', '简']
+    - name: ascii_punct
+      states: ['。，', '．，']
