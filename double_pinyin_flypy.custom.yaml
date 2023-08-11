@@ -57,3 +57,5 @@ patch:
       states: ['繁', '简']
     - name: ascii_punct
       states: ['。，', '．，']
+  # 词库
+  'translator/dictionary': luna_pinyin.extended

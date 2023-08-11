@@ -1,0 +1,13 @@
+---
+name: shell # 常用 shell 命令
+version: '2023.08.11'
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+git	git	1
+git clone	git	2
+git pull	git	3
+git commit -m ""	git	4
+apt	apt	1
+apt update	apt	2
