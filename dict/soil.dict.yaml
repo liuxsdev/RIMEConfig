@@ -1,0 +1,32 @@
+---
+name: soil # 土壤污染状况调查常用术语
+version: '2023.08.15'
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+土壤污染状况	tu rang wu ran zhuang kuang	1
+地块	di kuai	1
+调查地块	diao cha di kuai	1
+备案	bei an	1
+备案稿	bei an gao	1
+踏勘	ta kan	1
+四至范围	si zhi fan wei	1
+东至	dong zhi	1
+西至	xi zhi	1
+南至	nan zhi	1
+北至	bei zhi	1
+东经	dong jing	1
+北纬	bei wei	1
+第一类用地	di yi lei yong di	1
+第二类用地	di er lei yong di	1
+筛选值	shai xuan zhi	1
+洗井	xi jing	1
+成井洗井	cheng jing xi jing	1
+采样前洗井	cai yang qian xi jing	1
+平行样	ping xing yang	1
+毒性分值	du xing fen zhi	1
+不确定性	bu que ding xing	1
+CMA	cma	1
+资质证书	zi zhi zheng shu	1
+土壤修复	tu rang xiu fu	1

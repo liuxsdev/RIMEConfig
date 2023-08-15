@@ -7,6 +7,7 @@ use_preset_vocabulary: true # 是否使用预置发音，一般选true
 import_tables:
   - luna_pinyin    # 预置的朙月拼音词库
   - ./dict/chengyu # 搜狗-成语俗语
+  - ./dict/soil    # 土壤调查常用语
   - ./dict/shell   # 常用 shell 命令
 
 ...
