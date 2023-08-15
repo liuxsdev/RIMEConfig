@@ -1,4 +1,7 @@
 patch:
+  # 修改图标
+  'schema/icon': ./icon/中.ico
+  'schema/ascii_icon': ./icon/英.ico
   'speller/algebra':
     - erase/^xx$/ # 第一行保留
     # == 小鹤双拼模糊音设置 https://gist.github.com/lotem/2320943?permalink_comment_id=3027954#gistcomment-3027954
