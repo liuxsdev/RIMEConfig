@@ -1,0 +1,10 @@
+---
+name: en # 常用英文
+version: '2023.08.16'
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+QQ	qq	1
+TIM	tim	1
+QGIS	qgis	1
