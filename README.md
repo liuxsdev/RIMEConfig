@@ -11,3 +11,7 @@
 ## 小鹤双拼模糊音设置
 
 <https://gist.github.com/lotem/2320943?permalink_comment_id=3027954#gistcomment-3027954>
+
+## 添加 Emoji 🤭
+
+<https://github.com/rime/rime-emoji/>
