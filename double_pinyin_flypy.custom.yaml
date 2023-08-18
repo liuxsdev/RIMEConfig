@@ -2,11 +2,14 @@ patch:
   # 修改图标
   'schema/icon': ./icon/中.ico
   'schema/ascii_icon': ./icon/英.ico
+
   # 小鹤双拼模糊音设置 see https://gist.github.com/lotem/2320943?permalink_comment_id=3027954#gistcomment-3027954
   'speller/algebra/@before 1': derive/([ei])n$/$1ng/ # en => eng, in => ing
   'speller/algebra/@before 2': derive/([ei])ng$/$1n/ # eng => en, ing => in
+
   # 設定多少字以內候選標註完整帶調拼音
   translator/spelling_hints: 3
+
   # 自定义短语
   engine/translators/+:
     - table_translator@custom_phrase
@@ -19,27 +22,27 @@ patch:
     enable_completion: false
     enable_sentence: false
     initial_quality: 1
-  # 切换
-  switches:
-    - name: ascii_mode
-      reset: 0
-      states: ['中文', '西文']
-    - name: full_shape
-      states: ['半角', '全角']
-    - name: simplification
-      reset: 1
-      states: ['繁', '简']
-    - name: ascii_punct
-      states: ['。，', '．，']
+
+  # 默认简体 且修改切换词
+  switches/@2/reset: 1
+  switches/@2/states: ['繁', '简']
+
+  # 标点符号设置
+  punctuator/full_shape:
+    '/': '、'
+    '*': '*'
+    '_': '_'
+  punctuator/half_shape:
+    '/': '、'
+    '*': '*'
+    '_': '_'
+
   # 词库
   'translator/dictionary': luna_pinyin.extended
-  switches/@next:
-    name: emoji_suggestion
-    reset: 1
-    states: ['🈚︎', '🈶️']
-  'engine/filters/@before 0': simplifier@emoji_suggestion
-  emoji_suggestion:
-    opencc_config: emoji.json
-    option_name: emoji_suggestion
-    tips: none
-    inherit_comment: false
+
+# Emoji Patch
+__patch:
+  # Rx: emoji:customize:schema=double_pinyin_flypy {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }

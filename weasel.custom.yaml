@@ -5,8 +5,9 @@ customization:
   modified_time: 'Fri Jul 28 14:03:55 2023'
   rime_version: 1.8.5
 patch:
-  'style/color_scheme': google
-  'style/font_face': '梦源黑体 L CN'
-  'style/font_point': 14
-  'style/horizontal': true
-  'style/inline_preedit': true
+  style/color_scheme: google
+  style/font_face: '梦源黑体 L CN'
+  style/font_point: 12
+  style/horizontal: false
+  style/inline_preedit: true
+  style/layout/candidate_spacing: 4
