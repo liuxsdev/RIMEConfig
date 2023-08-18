@@ -6,6 +6,9 @@ use_preset_vocabulary: true
 ...
 
 土壤污染状况	tu rang wu ran zhuang kuang	1
+场调	chang diao	1
+石油烃	shi you ting	1
+石油烃（C10-C40）	shi you ting	2
 地块	di kuai	1
 调查地块	diao cha di kuai	1
 备案	bei an	1
@@ -27,6 +30,13 @@ use_preset_vocabulary: true
 平行样	ping xing yang	1
 毒性分值	du xing fen zhi	1
 不确定性	bu que ding xing	1
-CMA	cma	1
 资质证书	zi zhi zheng shu	1
 土壤修复	tu rang xiu fu	1
+土壤环境质量 建设用地土壤污染风险管控标准（试行）（GB 36600-2018）	gb	1
+地下水质量标准（GB/T 14848-2017）	gb	2
+HJ 25.1 建设用地土壤污染状况调查技术导则	hj	1
+HJ 25.2 建设用地土壤污染风险管控和修复监测技术导则	hj	2
+HJ 25.3 建设用地土壤污染风险评估技术导则	hj	3
+《建设用地土壤污染状况调查技术导则》（HJ 25.1-2019）	hj	4
+CMA	cma	1
+ND	nd	1
