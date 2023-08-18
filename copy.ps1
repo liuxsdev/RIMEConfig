@@ -21,7 +21,7 @@ foreach ($file in $yamlFiles) {
 }
 
 # 定义需要拷贝的文件夹
-$foldersToCopy = @("dict", "icon")
+$foldersToCopy = @("dict", "icon","lua")
 
 # 遍历需要拷贝的文件夹并拷贝文件
 foreach ($folder in $foldersToCopy) {

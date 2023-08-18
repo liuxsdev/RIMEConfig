@@ -10,8 +10,10 @@ patch:
   # 設定多少字以內候選標註完整帶調拼音
   translator/spelling_hints: 3
 
-  # 自定义短语
   engine/translators/+:
+    # lua 翻译日期 https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua
+    - lua_translator@*date_translator
+    # 自定义短语
     - table_translator@custom_phrase
   engine/filters/+:
     - uniquifier
