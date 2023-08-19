@@ -45,3 +45,17 @@ foreach ($folder in $foldersToCopy) {
 }
 
 Write-Host "All files and folders copied to $rimePath"
+
+# 重新部署
+
+$rimeInstallDir = [Environment]::GetEnvironmentVariable("RIME_INSTALL_DIR")
+
+# Write-Host "Rime install dir: $rimeInstallDir"
+# # 检查环境变量是否存在
+if ([string]::IsNullOrWhiteSpace($rimeInstallDir)) {
+    Write-Host "RIME_INSTALL_DIR not set"
+} else {
+    Write-Host "Rime install dir: $rimeInstallDir"
+    $deployerPath = Join-Path $rimeInstallDir "WeaselDeployer.exe"
+    Invoke-Expression -Command "$deployerPath /deploy"
+}
