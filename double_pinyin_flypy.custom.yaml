@@ -11,8 +11,9 @@ patch:
   translator/spelling_hints: 3
 
   engine/translators/+:
-    # lua 翻译日期 https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua
-    - lua_translator@*date_translator
+    # lua
+    - lua_translator@*date_translator # 日期 https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua
+    - lua_translator@*time_translator # 时间
     # 自定义短语
     - table_translator@custom_phrase
   engine/filters/+:

@@ -6,7 +6,12 @@ local function translator(input, seg)
         candidate.quality = 100
         yield(candidate)
     end
-    if (input == "date" or input == "riqi") then
+    if (input == "date") then
+        create_candidate(os.date("%Y年%m月%d日"),'📅️')
+        create_candidate(os.date("%Y-%m-%d"),'📅️')
+    end
+    if (input == "riqi") then
+        create_candidate("日期",'☯️')
         create_candidate(os.date("%Y年%m月%d日"),'📅️')
         create_candidate(os.date("%Y-%m-%d"),'📅️')
     end
