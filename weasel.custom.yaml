@@ -10,4 +10,7 @@ patch:
   style/font_point: 12
   style/horizontal: false
   style/inline_preedit: true
-  style/layout/candidate_spacing: 4
+  style/layout/candidate_spacing: 4 # 候选间距
+  style/layout/border_width: 0 # 边框宽度
+  style/layout/corner_radius: 15 # 窗口圆角半径
+  style/layout/round_corner: 8 # 高亮圆角
