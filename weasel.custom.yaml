@@ -5,12 +5,20 @@ customization:
   modified_time: 'Fri Jul 28 14:03:55 2023'
   rime_version: 1.8.5
 patch:
+  style/antialias_mode: default
   style/color_scheme: google
   style/font_face: '梦源黑体 L CN'
+  style/label_font_face: Cascadia Code # 标签字体
+  style/label_format: ' %s' # 候选词标签格式 加了一个空格
+  style/comment_font_face: Cascadia Code # 注释字体
   style/font_point: 12
+  style/label_font_point: 11 # 标签字体大小
+  style/comment_font_point: 11 # 注释字体大小
   style/horizontal: false
   style/inline_preedit: true
   style/layout/candidate_spacing: 4 # 候选间距
   style/layout/border_width: 0 # 边框宽度
-  style/layout/corner_radius: 15 # 窗口圆角半径
+  style/layout/corner_radius: 8 # 窗口圆角半径
   style/layout/round_corner: 8 # 高亮圆角
+  style/layout/margin_x: 0
+  style/layout/margin_y: 0
