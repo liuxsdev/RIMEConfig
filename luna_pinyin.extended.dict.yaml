@@ -10,6 +10,6 @@ import_tables:
   - ./dict/soil    # 土壤调查常用语
   - ./dict/shell   # 常用 shell 命令
   - ./dict/en      # 常用英文
-
+  - ./dict/symbol  # 符号
 ...
 

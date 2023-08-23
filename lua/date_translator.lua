@@ -11,7 +11,7 @@ local function translator(input, seg)
         create_candidate(os.date("%Y-%m-%d"),'📅️')
     end
     if (input == "riqi") then
-        create_candidate("日期",'☯️')
+        create_candidate("日期",'♾️')
         create_candidate(os.date("%Y年%m月%d日"),'📅️')
         create_candidate(os.date("%Y-%m-%d"),'📅️')
     end

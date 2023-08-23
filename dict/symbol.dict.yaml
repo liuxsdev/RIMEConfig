@@ -1,0 +1,20 @@
+---
+name: symbol # 符号
+version: '2023.08.23'
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+①	yi	95
+②	er	95
+③	san	95
+④	si	95
+⑤	wu	95
+⑥	liu	95
+⑦	qi	95
+⑧	ba	95
+⑨	jiu	95
+⑩	shi	95
+°	du	95
+′	fen	95
+″	miao	95

@@ -20,6 +20,12 @@ foreach ($file in $yamlFiles) {
     Write-Host "Copied $($file.Name) to $rimePath"
 }
 
+# 拷贝custom_phrase
+$custom_phrase = Join-Path $currentDirectory "custom_phrase.txt"
+$dest_custom_phrase = Join-Path $rimePath "custom_phrase.txt"
+Copy-Item -Path $custom_phrase -Destination $dest_custom_phrase -Force
+Write-Host "Copied $custom_phrase to $dest_custom_phrase"
+
 # 定义需要拷贝的文件夹
 $foldersToCopy = @("dict", "icon","lua","opencc")
 
