@@ -6,8 +6,13 @@ local function translator(input, seg)
         candidate.quality = 100
         yield(candidate)
     end
-    if (input == "time" or input == "uijm") then
-        create_candidate(os.date("%H:%M:%S"),'⏲️')
+    if (input == "time") then
+        create_candidate("time",'♾️')
+        create_candidate(os.date("%H:%M:%S"),'🕓')
+    end
+    if (input == "uijm") then
+        create_candidate("时间",'♾️')
+        create_candidate(os.date("%H:%M:%S"),'🕓')
     end
 end
 
