@@ -22,4 +22,4 @@ patch:
       Shift_L: noop
       Shift_R: noop
   menu:
-    page_size: 6 # 候选词个数
+    page_size: 8 # 候选词个数

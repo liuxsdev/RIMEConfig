@@ -15,3 +15,7 @@
 ## 添加 Emoji 🤭
 
 <https://github.com/rime/rime-emoji/>
+
+## 删除误上屏的词
+
+先把选字光标移到要删除的词组上，按 `Control` + `Delete`。
