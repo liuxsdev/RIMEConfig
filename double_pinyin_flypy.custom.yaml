@@ -34,11 +34,13 @@ patch:
   punctuator/full_shape:
     '\': '、'
     '`': '`'
+    '=': '='
   #   '*': '*'
   #   '_': '_'
   punctuator/half_shape:
     '\': '、'
     '`': '`'
+    '=': '='
   #   '*': '*'
   #   '_': '_'
   # https://www.mintimate.cn/2023/03/18/rimeQuickInit/#输入符号
