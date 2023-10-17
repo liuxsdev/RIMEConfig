@@ -9,7 +9,9 @@ use_preset_vocabulary: true
 场调	chang diao	1
 石油烃	shi you ting	1
 石油烃（C10-C40）	shi you ting	2
+石油烃（C₁₀-C₄₀）	shi you ting	3
 地块	di kuai	1
+地勘	di kan	1
 调查地块	diao cha di kuai	1
 备案	bei an	1
 备案稿	bei an gao	1
