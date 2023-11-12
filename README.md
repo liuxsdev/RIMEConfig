@@ -8,6 +8,8 @@
 
 <https://github.com/rime/home/wiki/CustomizationGuide#rime-定製指南>
 
+雪齋的文檔: <https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md>
+
 ## 小鹤双拼模糊音设置
 
 <https://gist.github.com/lotem/2320943?permalink_comment_id=3027954#gistcomment-3027954>
