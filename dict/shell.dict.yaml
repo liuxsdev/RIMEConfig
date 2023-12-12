@@ -6,8 +6,9 @@ use_preset_vocabulary: true
 ...
 
 git	git	1
-git clone	git	2
-git pull	git	3
-git commit -m ""	git	4
+git status	git	2
+git clone	git	3
+git pull	git	4
+git commit -m ""	git	5
 apt	apt	1
 apt update	apt	2
